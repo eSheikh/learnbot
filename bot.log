@@ -1,0 +1,40 @@
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x7f6948a55898>: Failed to establish a new connection: [Errno 101] Network is unreachable',)': /bot566724368:AAFbx-AjF0vPNrNCPitG2FDUNN6F436cjE0/getMe
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x7f6948a55940>: Failed to establish a new connection: [Errno 101] Network is unreachable',)': /bot566724368:AAFbx-AjF0vPNrNCPitG2FDUNN6F436cjE0/getMe
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x7f6948a559b0>: Failed to establish a new connection: [Errno 101] Network is unreachable',)': /bot566724368:AAFbx-AjF0vPNrNCPitG2FDUNN6F436cjE0/getMe
+root - INFO - Бот запускается - 2020-01-14 12:45:29,235
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception. - 2020-01-14 12:45:30,116
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/telegram/ext/dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.6/site-packages/telegram/ext/handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "p_bot.py", line 13, in start
+    update.message.reply_text(text)
+AttributeError: 'CallbackContext' object has no attribute 'message'
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception. - 2020-01-14 12:45:32,208
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/telegram/ext/dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.6/site-packages/telegram/ext/handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "p_bot.py", line 13, in start
+    update.message.reply_text(text)
+AttributeError: 'CallbackContext' object has no attribute 'message'
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception. - 2020-01-14 12:45:39,337
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/telegram/ext/dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.6/site-packages/telegram/ext/handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "p_bot.py", line 13, in start
+    update.message.reply_text(text)
+AttributeError: 'CallbackContext' object has no attribute 'message'
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception. - 2020-01-14 12:45:43,870
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/telegram/ext/dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.6/site-packages/telegram/ext/handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "p_bot.py", line 13, in start
+    update.message.reply_text(text)
+AttributeError: 'CallbackContext' object has no attribute 'message'
